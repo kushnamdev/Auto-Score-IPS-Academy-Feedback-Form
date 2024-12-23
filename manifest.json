@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Score IPS Academy feedback form",
+    "author": "Kush Namdev (x.com/oyeekushh)",
+    "version": "1.1",
+    "description": "Automatically assigns a score to feedback forms for IPS Academy.",
+    "permissions": [],
+    "host_permissions": [
+      "https://cms.ipsacademy.net/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://cms.ipsacademy.net/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
+  
