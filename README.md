@@ -1,5 +1,5 @@
 # Auto-Score-IPS-Academy-Feedback-Form
-A chrome extension that can autoscore IPS Academy CMS Feedback form 
+A chrome extension that can autoscore IPS Academy CMS Feedback forms and save you some time.
 
 - Open the IPS academy CMS Portal and Go to Feedback forms.
 - Install the extension using Developer Options.
